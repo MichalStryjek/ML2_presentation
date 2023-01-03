@@ -7,8 +7,8 @@ import librosa
 #filename = os.path.join(dirname, 'relative/path/to/file/you/want')
 
 
-DATASET_PATH = "./dataset/GTZAN/Data/genres_original"#name the data path
-JSON_PATH = "./dataprep_output/zero_DB_Mel.json"# name the address where do you want to store the json file
+DATASET_PATH = "./Dataset/genres_original"#name the data path
+JSON_PATH = "./DATAPREP_OUTPUT/input_data.json"# name the address where do you want to store the json file
 SAMPLE_RATE = 22050
 TRACK_DURATION = 5  # measured in seconds
 SAMPLES_PER_TRACK = SAMPLE_RATE * TRACK_DURATION
