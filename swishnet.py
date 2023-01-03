@@ -7,7 +7,7 @@ from keras import layers, Model
 import numpy as np
 
 # path to json file that stores MFCCs and genre labels for each processed segment
-DATA_PATH = "./dataprep_output/zero_DB_Mel.json"
+DATA_PATH = "./DATAPREP_OUTPUT/input_data.json"
 
 
 
